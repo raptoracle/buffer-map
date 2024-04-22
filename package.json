@@ -7,10 +7,10 @@
     "map"
   ],
   "license": "MIT",
-  "repository": "git://github.com/chjj/buffer-map.git",
-  "homepage": "https://github.com/chjj/buffer-map",
+  "repository": "git://github.com/raptoracle/buffer-map.git",
+  "homepage": "https://github.com/raptoracle/buffer-map",
   "bugs": {
-    "url": "https://github.com/chjj/buffer-map/issues"
+    "url": "https://github.com/raptoracle/buffer-map/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
   "main": "./lib/buffer-map.js",
@@ -19,7 +19,7 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "devDependencies": {
-    "bmocha": "^2.1.0"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
   },
   "engines": {
     "node": ">=8.0.0"
